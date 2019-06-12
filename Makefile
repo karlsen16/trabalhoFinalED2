@@ -11,7 +11,7 @@ LIBS		= -led -lm -L $(LIB)
 all: libed app
 
 libed: \
-	$(OBJ)/raizes.o
+	$(OBJ)/arvoreb.o
 	ar -rcs $(LIB)/libed.a $(OBJ)/*.o
 
 app: $(BIN)/main

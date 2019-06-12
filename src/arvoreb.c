@@ -1,11 +1,5 @@
 #include "arvoreb.h"
 
-#define TIPO char
-#define T 2           /*Número que define mínimo e máximo de chaves!*/
-#define NOT_FOUND -1  /*Valor retornado quando o nó não existe!*/
-#define TRUE 1        /*Booleano para verdadeiro!*/
-#define FALSE 0       /*Booleano para falso!*/
-
 /*Função para criar e inicializar uma árvore B:*/
 Arvore* criar () {
    Arvore *a = (Arvore *)malloc(sizeof(Arvore));

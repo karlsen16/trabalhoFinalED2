@@ -4,6 +4,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#define TIPO char
+#define T 2           /*Número que define mínimo e máximo de chaves!*/
+#define NOT_FOUND -1  /*Valor retornado quando o nó não existe!*/
+#define TRUE 1        /*Booleano para verdadeiro!*/
+#define FALSE 0       /*Booleano para falso!*/
+
 /*Estrutura básica para uma árvore B: */
 typedef struct _node {
   int n; /*Número de chaves armazenadas no nó!*/
